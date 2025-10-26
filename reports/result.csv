@@ -1,0 +1,11 @@
+id,algorithm,vertices,total_mst_cost,execution_ms,operation_count
+1,Kruskal,18,96.000000,1,113
+1,Prim,18,96.000000,0,27
+2,Kruskal,27,157.000000,0,190
+2,Prim,27,157.000000,0,40
+3,Kruskal,22,170.000000,0,149
+3,Prim,22,170.000000,0,33
+4,Kruskal,27,166.000000,0,187
+4,Prim,27,166.000000,0,40
+5,Kruskal,13,105.000000,0,72
+5,Prim,13,105.000000,0,19

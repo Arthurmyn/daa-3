@@ -1,0 +1,889 @@
+{
+  "results" : [ {
+    "graph_id" : 1,
+    "vertices" : 18,
+    "edges" : 27,
+    "kruskal_weight" : 96.0,
+    "prim_weight" : 96.0,
+    "kruskal_time_ms" : 1.0,
+    "prim_time_ms" : 0.0,
+    "kruskal_ops_unions" : 17,
+    "kruskal_ops_compares" : 96,
+    "prim_ops_unions" : 0,
+    "prim_ops_compares" : 27,
+    "kruskal_edges" : [ {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 1.0
+    }, {
+      "from" : 5,
+      "to" : 17,
+      "weight" : 1.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 1.0
+    }, {
+      "from" : 14,
+      "to" : 15,
+      "weight" : 1.0
+    }, {
+      "from" : 13,
+      "to" : 16,
+      "weight" : 3.0
+    }, {
+      "from" : 1,
+      "to" : 2,
+      "weight" : 4.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 4.0
+    }, {
+      "from" : 0,
+      "to" : 9,
+      "weight" : 5.0
+    }, {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 6.0
+    }, {
+      "from" : 6,
+      "to" : 11,
+      "weight" : 6.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 6.0
+    }, {
+      "from" : 3,
+      "to" : 4,
+      "weight" : 7.0
+    }, {
+      "from" : 12,
+      "to" : 13,
+      "weight" : 7.0
+    }, {
+      "from" : 5,
+      "to" : 8,
+      "weight" : 8.0
+    }, {
+      "from" : 8,
+      "to" : 9,
+      "weight" : 11.0
+    }, {
+      "from" : 16,
+      "to" : 17,
+      "weight" : 11.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 14.0
+    } ],
+    "prim_edges" : [ {
+      "from" : 1,
+      "to" : 2,
+      "weight" : 4.0
+    }, {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 1.0
+    }, {
+      "from" : 3,
+      "to" : 4,
+      "weight" : 7.0
+    }, {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 6.0
+    }, {
+      "from" : 5,
+      "to" : 8,
+      "weight" : 8.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 1.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 6.0
+    }, {
+      "from" : 8,
+      "to" : 9,
+      "weight" : 11.0
+    }, {
+      "from" : 0,
+      "to" : 9,
+      "weight" : 5.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 14.0
+    }, {
+      "from" : 6,
+      "to" : 11,
+      "weight" : 6.0
+    }, {
+      "from" : 12,
+      "to" : 13,
+      "weight" : 7.0
+    }, {
+      "from" : 13,
+      "to" : 16,
+      "weight" : 3.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 4.0
+    }, {
+      "from" : 14,
+      "to" : 15,
+      "weight" : 1.0
+    }, {
+      "from" : 16,
+      "to" : 17,
+      "weight" : 11.0
+    }, {
+      "from" : 5,
+      "to" : 17,
+      "weight" : 1.0
+    } ]
+  }, {
+    "graph_id" : 2,
+    "vertices" : 27,
+    "edges" : 40,
+    "kruskal_weight" : 157.0,
+    "prim_weight" : 157.0,
+    "kruskal_time_ms" : 0.0,
+    "prim_time_ms" : 0.0,
+    "kruskal_ops_unions" : 26,
+    "kruskal_ops_compares" : 164,
+    "prim_ops_unions" : 0,
+    "prim_ops_compares" : 40,
+    "kruskal_edges" : [ {
+      "from" : 6,
+      "to" : 15,
+      "weight" : 1.0
+    }, {
+      "from" : 8,
+      "to" : 18,
+      "weight" : 1.0
+    }, {
+      "from" : 13,
+      "to" : 16,
+      "weight" : 1.0
+    }, {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 2.0
+    }, {
+      "from" : 5,
+      "to" : 21,
+      "weight" : 2.0
+    }, {
+      "from" : 12,
+      "to" : 13,
+      "weight" : 2.0
+    }, {
+      "from" : 22,
+      "to" : 23,
+      "weight" : 3.0
+    }, {
+      "from" : 23,
+      "to" : 25,
+      "weight" : 3.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 4.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 4.0
+    }, {
+      "from" : 4,
+      "to" : 7,
+      "weight" : 5.0
+    }, {
+      "from" : 11,
+      "to" : 17,
+      "weight" : 5.0
+    }, {
+      "from" : 1,
+      "to" : 4,
+      "weight" : 6.0
+    }, {
+      "from" : 26,
+      "to" : 10,
+      "weight" : 6.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 6.0
+    }, {
+      "from" : 14,
+      "to" : 15,
+      "weight" : 6.0
+    }, {
+      "from" : 19,
+      "to" : 20,
+      "weight" : 6.0
+    }, {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 7.0
+    }, {
+      "from" : 26,
+      "to" : 25,
+      "weight" : 7.0
+    }, {
+      "from" : 1,
+      "to" : 2,
+      "weight" : 8.0
+    }, {
+      "from" : 0,
+      "to" : 26,
+      "weight" : 10.0
+    }, {
+      "from" : 10,
+      "to" : 11,
+      "weight" : 11.0
+    }, {
+      "from" : 17,
+      "to" : 24,
+      "weight" : 11.0
+    }, {
+      "from" : 18,
+      "to" : 19,
+      "weight" : 11.0
+    }, {
+      "from" : 5,
+      "to" : 9,
+      "weight" : 14.0
+    }, {
+      "from" : 8,
+      "to" : 9,
+      "weight" : 15.0
+    } ],
+    "prim_edges" : [ {
+      "from" : 1,
+      "to" : 4,
+      "weight" : 6.0
+    }, {
+      "from" : 1,
+      "to" : 2,
+      "weight" : 8.0
+    }, {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 2.0
+    }, {
+      "from" : 4,
+      "to" : 7,
+      "weight" : 5.0
+    }, {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 7.0
+    }, {
+      "from" : 6,
+      "to" : 15,
+      "weight" : 1.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 4.0
+    }, {
+      "from" : 8,
+      "to" : 9,
+      "weight" : 15.0
+    }, {
+      "from" : 5,
+      "to" : 9,
+      "weight" : 14.0
+    }, {
+      "from" : 26,
+      "to" : 10,
+      "weight" : 6.0
+    }, {
+      "from" : 10,
+      "to" : 11,
+      "weight" : 11.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 6.0
+    }, {
+      "from" : 12,
+      "to" : 13,
+      "weight" : 2.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 4.0
+    }, {
+      "from" : 14,
+      "to" : 15,
+      "weight" : 6.0
+    }, {
+      "from" : 13,
+      "to" : 16,
+      "weight" : 1.0
+    }, {
+      "from" : 11,
+      "to" : 17,
+      "weight" : 5.0
+    }, {
+      "from" : 8,
+      "to" : 18,
+      "weight" : 1.0
+    }, {
+      "from" : 18,
+      "to" : 19,
+      "weight" : 11.0
+    }, {
+      "from" : 19,
+      "to" : 20,
+      "weight" : 6.0
+    }, {
+      "from" : 5,
+      "to" : 21,
+      "weight" : 2.0
+    }, {
+      "from" : 22,
+      "to" : 23,
+      "weight" : 3.0
+    }, {
+      "from" : 23,
+      "to" : 25,
+      "weight" : 3.0
+    }, {
+      "from" : 23,
+      "to" : 24,
+      "weight" : 11.0
+    }, {
+      "from" : 26,
+      "to" : 25,
+      "weight" : 7.0
+    }, {
+      "from" : 0,
+      "to" : 26,
+      "weight" : 10.0
+    } ]
+  }, {
+    "graph_id" : 3,
+    "vertices" : 22,
+    "edges" : 33,
+    "kruskal_weight" : 170.0,
+    "prim_weight" : 170.0,
+    "kruskal_time_ms" : 0.0,
+    "prim_time_ms" : 0.0,
+    "kruskal_ops_unions" : 21,
+    "kruskal_ops_compares" : 128,
+    "prim_ops_unions" : 0,
+    "prim_ops_compares" : 33,
+    "kruskal_edges" : [ {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 2.0
+    }, {
+      "from" : 20,
+      "to" : 21,
+      "weight" : 2.0
+    }, {
+      "from" : 0,
+      "to" : 21,
+      "weight" : 3.0
+    }, {
+      "from" : 5,
+      "to" : 15,
+      "weight" : 3.0
+    }, {
+      "from" : 1,
+      "to" : 2,
+      "weight" : 4.0
+    }, {
+      "from" : 16,
+      "to" : 21,
+      "weight" : 4.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 5.0
+    }, {
+      "from" : 16,
+      "to" : 17,
+      "weight" : 5.0
+    }, {
+      "from" : 19,
+      "to" : 20,
+      "weight" : 5.0
+    }, {
+      "from" : 3,
+      "to" : 19,
+      "weight" : 7.0
+    }, {
+      "from" : 5,
+      "to" : 12,
+      "weight" : 7.0
+    }, {
+      "from" : 3,
+      "to" : 4,
+      "weight" : 8.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 8.0
+    }, {
+      "from" : 8,
+      "to" : 16,
+      "weight" : 10.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 11.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 12.0
+    }, {
+      "from" : 2,
+      "to" : 12,
+      "weight" : 14.0
+    }, {
+      "from" : 12,
+      "to" : 13,
+      "weight" : 14.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 14.0
+    }, {
+      "from" : 8,
+      "to" : 9,
+      "weight" : 15.0
+    }, {
+      "from" : 5,
+      "to" : 18,
+      "weight" : 17.0
+    } ],
+    "prim_edges" : [ {
+      "from" : 1,
+      "to" : 2,
+      "weight" : 4.0
+    }, {
+      "from" : 2,
+      "to" : 12,
+      "weight" : 14.0
+    }, {
+      "from" : 3,
+      "to" : 19,
+      "weight" : 7.0
+    }, {
+      "from" : 3,
+      "to" : 4,
+      "weight" : 8.0
+    }, {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 2.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 8.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 5.0
+    }, {
+      "from" : 8,
+      "to" : 16,
+      "weight" : 10.0
+    }, {
+      "from" : 8,
+      "to" : 9,
+      "weight" : 15.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 11.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 12.0
+    }, {
+      "from" : 5,
+      "to" : 12,
+      "weight" : 7.0
+    }, {
+      "from" : 12,
+      "to" : 13,
+      "weight" : 14.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 14.0
+    }, {
+      "from" : 5,
+      "to" : 15,
+      "weight" : 3.0
+    }, {
+      "from" : 16,
+      "to" : 21,
+      "weight" : 4.0
+    }, {
+      "from" : 16,
+      "to" : 17,
+      "weight" : 5.0
+    }, {
+      "from" : 17,
+      "to" : 18,
+      "weight" : 17.0
+    }, {
+      "from" : 19,
+      "to" : 20,
+      "weight" : 5.0
+    }, {
+      "from" : 20,
+      "to" : 21,
+      "weight" : 2.0
+    }, {
+      "from" : 0,
+      "to" : 21,
+      "weight" : 3.0
+    } ]
+  }, {
+    "graph_id" : 4,
+    "vertices" : 27,
+    "edges" : 40,
+    "kruskal_weight" : 166.0,
+    "prim_weight" : 166.0,
+    "kruskal_time_ms" : 0.0,
+    "prim_time_ms" : 0.0,
+    "kruskal_ops_unions" : 26,
+    "kruskal_ops_compares" : 161,
+    "prim_ops_unions" : 0,
+    "prim_ops_compares" : 40,
+    "kruskal_edges" : [ {
+      "from" : 15,
+      "to" : 16,
+      "weight" : 1.0
+    }, {
+      "from" : 0,
+      "to" : 21,
+      "weight" : 2.0
+    }, {
+      "from" : 5,
+      "to" : 6,
+      "weight" : 2.0
+    }, {
+      "from" : 16,
+      "to" : 17,
+      "weight" : 2.0
+    }, {
+      "from" : 14,
+      "to" : 21,
+      "weight" : 3.0
+    }, {
+      "from" : 24,
+      "to" : 25,
+      "weight" : 3.0
+    }, {
+      "from" : 20,
+      "to" : 21,
+      "weight" : 4.0
+    }, {
+      "from" : 26,
+      "to" : 25,
+      "weight" : 4.0
+    }, {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 5.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 5.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 5.0
+    }, {
+      "from" : 8,
+      "to" : 23,
+      "weight" : 6.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 6.0
+    }, {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 7.0
+    }, {
+      "from" : 4,
+      "to" : 11,
+      "weight" : 7.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 7.0
+    }, {
+      "from" : 20,
+      "to" : 25,
+      "weight" : 7.0
+    }, {
+      "from" : 23,
+      "to" : 24,
+      "weight" : 7.0
+    }, {
+      "from" : 0,
+      "to" : 2,
+      "weight" : 8.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 8.0
+    }, {
+      "from" : 8,
+      "to" : 19,
+      "weight" : 10.0
+    }, {
+      "from" : 9,
+      "to" : 14,
+      "weight" : 10.0
+    }, {
+      "from" : 14,
+      "to" : 15,
+      "weight" : 10.0
+    }, {
+      "from" : 1,
+      "to" : 15,
+      "weight" : 11.0
+    }, {
+      "from" : 18,
+      "to" : 19,
+      "weight" : 13.0
+    }, {
+      "from" : 22,
+      "to" : 23,
+      "weight" : 13.0
+    } ],
+    "prim_edges" : [ {
+      "from" : 1,
+      "to" : 2,
+      "weight" : 11.0
+    }, {
+      "from" : 0,
+      "to" : 2,
+      "weight" : 8.0
+    }, {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 5.0
+    }, {
+      "from" : 4,
+      "to" : 5,
+      "weight" : 7.0
+    }, {
+      "from" : 5,
+      "to" : 6,
+      "weight" : 2.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 7.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 8.0
+    }, {
+      "from" : 8,
+      "to" : 23,
+      "weight" : 6.0
+    }, {
+      "from" : 9,
+      "to" : 14,
+      "weight" : 10.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 6.0
+    }, {
+      "from" : 4,
+      "to" : 11,
+      "weight" : 7.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 5.0
+    }, {
+      "from" : 13,
+      "to" : 14,
+      "weight" : 5.0
+    }, {
+      "from" : 14,
+      "to" : 21,
+      "weight" : 3.0
+    }, {
+      "from" : 14,
+      "to" : 15,
+      "weight" : 10.0
+    }, {
+      "from" : 15,
+      "to" : 16,
+      "weight" : 1.0
+    }, {
+      "from" : 16,
+      "to" : 17,
+      "weight" : 2.0
+    }, {
+      "from" : 18,
+      "to" : 19,
+      "weight" : 13.0
+    }, {
+      "from" : 8,
+      "to" : 19,
+      "weight" : 10.0
+    }, {
+      "from" : 20,
+      "to" : 21,
+      "weight" : 4.0
+    }, {
+      "from" : 0,
+      "to" : 21,
+      "weight" : 2.0
+    }, {
+      "from" : 22,
+      "to" : 23,
+      "weight" : 13.0
+    }, {
+      "from" : 23,
+      "to" : 24,
+      "weight" : 7.0
+    }, {
+      "from" : 24,
+      "to" : 25,
+      "weight" : 3.0
+    }, {
+      "from" : 20,
+      "to" : 25,
+      "weight" : 7.0
+    }, {
+      "from" : 26,
+      "to" : 25,
+      "weight" : 4.0
+    } ]
+  }, {
+    "graph_id" : 5,
+    "vertices" : 13,
+    "edges" : 19,
+    "kruskal_weight" : 105.0,
+    "prim_weight" : 105.0,
+    "kruskal_time_ms" : 0.0,
+    "prim_time_ms" : 0.0,
+    "kruskal_ops_unions" : 12,
+    "kruskal_ops_compares" : 60,
+    "prim_ops_unions" : 0,
+    "prim_ops_compares" : 19,
+    "kruskal_edges" : [ {
+      "from" : 2,
+      "to" : 5,
+      "weight" : 1.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 1.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 1.0
+    }, {
+      "from" : 3,
+      "to" : 4,
+      "weight" : 5.0
+    }, {
+      "from" : 0,
+      "to" : 1,
+      "weight" : 6.0
+    }, {
+      "from" : 3,
+      "to" : 8,
+      "weight" : 11.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 11.0
+    }, {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 12.0
+    }, {
+      "from" : 10,
+      "to" : 11,
+      "weight" : 13.0
+    }, {
+      "from" : 8,
+      "to" : 10,
+      "weight" : 14.0
+    }, {
+      "from" : 1,
+      "to" : 8,
+      "weight" : 15.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 15.0
+    } ],
+    "prim_edges" : [ {
+      "from" : 0,
+      "to" : 1,
+      "weight" : 6.0
+    }, {
+      "from" : 2,
+      "to" : 3,
+      "weight" : 12.0
+    }, {
+      "from" : 3,
+      "to" : 8,
+      "weight" : 11.0
+    }, {
+      "from" : 3,
+      "to" : 4,
+      "weight" : 5.0
+    }, {
+      "from" : 2,
+      "to" : 5,
+      "weight" : 1.0
+    }, {
+      "from" : 6,
+      "to" : 7,
+      "weight" : 15.0
+    }, {
+      "from" : 7,
+      "to" : 8,
+      "weight" : 1.0
+    }, {
+      "from" : 1,
+      "to" : 8,
+      "weight" : 15.0
+    }, {
+      "from" : 9,
+      "to" : 10,
+      "weight" : 1.0
+    }, {
+      "from" : 8,
+      "to" : 10,
+      "weight" : 14.0
+    }, {
+      "from" : 10,
+      "to" : 11,
+      "weight" : 13.0
+    }, {
+      "from" : 11,
+      "to" : 12,
+      "weight" : 11.0
+    } ]
+  } ]
+}
