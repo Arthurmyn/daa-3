@@ -1,9 +1,11 @@
+// src/main/java/metrics/CountingUF.java
 package metrics;
+
 import edu.princeton.cs.algs4.UF;
 
 public class CountingUF extends UF {
-    public CountingUF(int n){ super(n); }
-    @Override public int find(int p){ Metrics.incFind(); return super.find(p); }
-    @Override public void union(int p,int q){ Metrics.incUnion(); super.union(p,q); }
+    private final MetricsTracker mt;
+    public CountingUF(int n, MetricsTracker mt){ super(n); this.mt = mt; }
+    @Override public int find(int p){ mt.incFind(); return super.find(p); }
+    @Override public void union(int p,int q){ mt.incUnion(); super.union(p,q); }
 }
-
